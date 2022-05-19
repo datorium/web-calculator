@@ -39,21 +39,21 @@ body {
 }
 
 .container .buttons .button, .container .buttons .num-button  {
-    cursor: grab;
+    cursor: auto;
     text-align: center;
     width: 60px;
     font-size:18px;
     height: 60px;
     display: grid;
     place-content: center;
-    border-radius: 20%;
+    border-radius: 50%;
     box-shadow: 2px 2px 5px #babecc,
                 -5px -5px 10px #ffffff73;
 }
 
 .button:hover{
     color: #3498db;
-    background-color: coral;   
+    background-color: black;   
 }
 
 .container .buttons .zero {
